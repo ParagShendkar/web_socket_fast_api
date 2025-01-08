@@ -30,10 +30,4 @@ async def message(sid, data):
 # FastAPI route
 @app.get("/")
 def root():
-    """
-    Root endpoint for basic testing.
-    
-    Returns:
-        dict: Welcome message.
-    """
     return {"message": "Welcome to the FastAPI File Upload Service!"}
